@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paint Web App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript"></script>
+    </head>
+
+    <body>
+        <h1>Paint</h1>
+        <canvas id="canvas" height="600" width="800"></canvas>
+        <br>
+        <span>
+            Color - 
+            <input type="text" placeholder="Color" id="color">
+            
+            Width of line - 
+            <input type="text" placeholder="Width of line" id="line-width">
+
+            Radius - 
+            <input type="text" placeholder="Radius" id="radius">
+        </span>
+        
+        <br>
+
+        <button onclick="clear()" class="btn-success">Clear</button>
+        <script src="main.js"></script>
+    </body>
+</html>
