@@ -1,11 +1,7 @@
 canvas = document.getElementById("canvas");
 ctx = canvas.getContext("2d");
 
-var mouseEvent = "none";
-var last_X, last_Y;
-var color = "red";
-var lineWidth = 2;
-var radius = 20;
+mouseEvent = "none";
 
 canvas.addEventListener("mousedown", my_mousedown);
 
@@ -48,6 +44,6 @@ function my_mousemove(e) {
     }
 }
 
-function clear() {
+function clearArea() {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
